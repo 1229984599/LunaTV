@@ -22,10 +22,10 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-3178c6?logo=typescript)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.1.18-38bdf8?logo=tailwindcss)
 ![ArtPlayer](https://img.shields.io/badge/ArtPlayer-5.4.0-ff6b6b)
-![HLS.js](https://img.shields.io/badge/HLS.js-1.6.15-ec407a)
+![HLS.js](https://img.shields.io/badge/HLS.js-1.6.16-ec407a)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Docker Ready](https://img.shields.io/badge/Docker-ready-blue?logo=docker)
-![Version](https://img.shields.io/badge/Version-6.2.1-orange)
+![Version](https://img.shields.io/badge/Version-6.4.0-orange)
 
 </div>
 
@@ -33,7 +33,7 @@
 
 ## 📢 About
 
-This project is a deep fork of **MoonTV**, starting from **v4.3.1** and continuously iterated to the current **v6.2.1**, with 60+ major feature modules and 400+ detail optimizations. See [CHANGELOG](CHANGELOG) for all new features.
+This project is a deep fork of **MoonTV**, starting from **v4.3.1** and continuously iterated to the current **v6.4.0**, with 60+ major feature modules and 400+ detail optimizations. See [CHANGELOG](CHANGELOG) for all new features.
 
 ## ⚠️ Disclaimer
 
@@ -42,20 +42,27 @@ This project is for educational purposes only. Do not use for commercial purpose
 ## 💡 Key Enhancements
 
 ### 🎥 Content Ecosystem
-- **Emby Private Library**: Complete Emby media server integration with passwordless login and auth mode switcher → [Documentation](docs/integration/EMBY_GUIDE.md)
+- **Multi-User Watch Room**: Synchronized playback, screen sharing, real-time chat, voice calls, WebRTC streaming, adjustable quality presets → [Documentation](docs/deployment/WATCH_ROOM_DEPLOYMENT.md)
+- **Emby Private Library**: Complete Emby media server integration with passwordless login, auth mode switcher, and multi-audio track playback → [Documentation](docs/integration/EMBY_GUIDE.md)
 - **YouTube Integration**: Full YouTube search, playback, and live streaming
 - **Cloud Drive Search**: Advanced filtering and cache management
 - **ACG Torrent Search**: Mikan Project dual-source system
-- **Short Drama**: Complete short drama search, playback, and details
-- **IPTV Live TV**: m3u/m3u8 subscription, FLV streaming, EPG guide
+- **IPTV Live TV**: m3u/m3u8 subscription, FLV streaming, EPG guide, M3U import/export
 - **Bangumi Anime**: Intelligent anime detection and API integration
 - **Traditional Chinese Search**: Smart conversion and multi-strategy search
 - **Search List View**: Grid/list dual view mode with image preview and quick play button
 
 ### 🎬 Player Enhancements
+- **Seek Buttons**: Customizable seek forward/backward buttons with Netflix-style design and responsive layout
 - **Ultrawide Monitor Support**: Video display mode control for ultrawide monitors
 - **Skip Presets**: Flexible intro/outro template system with import/export and validation
 - **Persistent Playback Rate**: Remember playback speed settings across sessions
+- **Multi-Audio Track Support**: Auto-select browser-compatible audio tracks for Emby playback with track switching
+
+### 🔔 Content Tracking System
+- **Upcoming Content Reminders**: Complete watchlist and reminder system for upcoming content
+- **Auto Release Notifications**: Automatic push notifications when favorited content is released
+- **Invite Code System**: Registration system with invite codes, history tracking, and management
 
 ### 🤖 AI Recommendation System
 - **AI Assistant**: GPT-5/o series models support, streaming → [Documentation](docs/features/AI_FEATURES.md)
@@ -119,6 +126,7 @@ pnpm dev
 - 🤖 [AI Features](docs/features/AI_FEATURES.md)
 - 📥 [Download Features](docs/features/DOWNLOAD_FEATURES.md)
 - 📺 [Virtual Scroll Guide](docs/features/VIRTUAL_SCROLL_GUIDE.md)
+- 🎥 [Watch Room Deployment](docs/deployment/WATCH_ROOM_DEPLOYMENT.md)
 
 ### Integration Guides
 - 🎬 [Emby Integration](docs/integration/EMBY_GUIDE.md)
